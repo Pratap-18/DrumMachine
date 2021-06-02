@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #282828;
+}
+.drumkit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+}
+.pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex: 1 0 calc(33.333% - 20px);
+  background: radial-gradient(#e18174, #d15746);
+  border-radius: 10px;
+}
+.pad:hover {
+  background: radial-gradient(#e174db, #9e46d1);
+}
+.yellow {
+  background: radial-gradient(#e1d174, #d1c846);
+}
+.purple {
+  background: radial-gradient(#e174db, #9e46d1);
+}
